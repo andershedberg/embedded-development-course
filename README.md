@@ -2,7 +2,7 @@
 An embedded development course from Arduino blinking to hard core optimizing of battery life on ARM cores.
 
 Follow this flow - 
-1. Basics. The Arduino is a well documented education platform that is used in many schools. Learn the basics of connecting hardware and doing software for IO with blinking lights, i2c libraries and simple timer interrupts. See [Arduino-excersises.md]
+1. Basics. The Arduino is a well documented education platform that is used in many schools. Learn the basics of connecting hardware and doing software for IO with blinking lights, i2c libraries and simple timer interrupts. See [Arduion excersises.md](Arduino-excersises.md)
 
 2. Wireless IoT communication. Learn how to send data with the most common protocols using wifi, lora and GSM networks to your computer with a dashboard.  https://docs.pycom.io/gettingstarted/ 
 
