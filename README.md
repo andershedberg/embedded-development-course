@@ -6,6 +6,12 @@ Follow this flow -
 
 2. Wireless IoT communication. Learn how to send data with the most common protocols using wifi, lora and GSM networks to your computer with a dashboard. Start with [Wireless-iot.md](Wireless-iot.md) 
 
-3. Real Time operating systems. Between the Arduino ( one-task endless loop programming ) and the Raspberry Pi´s full blown linux systems, there is a need for combining communication protocol stacks with high responsiveness to sensors and IO devices like accelerometers and motor-controllers and put the microcontroller to sleep. This is the domain of RTOS'es. One common one is FreeRTOS, now bought by Amazon for IoT usage.  https://aws.amazon.com/freertos/
+3. Programming and microcontroller architechture. 
+Embedded systems are usually programmed in the C-programming language as you have experienced with the Arduino tutorials. Arduino hides a lot of the hard stuff.
+Advanced C-programming can be learnt by following [C-programming.md](C-programming.md).
 
-4. Power. Go one step deeper to really optimize battery power consumption to reach 10 years lifetime on a coin-cell. What state should IO-pins be set in during deep sleep? Can your application work on 16 bytes of battery backed up RTC registers and no RAM? What really happens when you wake up from deep-sleep/re-boot?
+To really understand the C-compiler, linkers and their files, read chapter 10 of this book. https://www.eecs.umich.edu/courses/eecs373/labs/refs/M3%20Guide.pdf It is also the best guide to the ARM instruction set and what you can expect to find in a SOC ( System On a Chip ) and how they are designed and programmed. The chapters of Systicks and interrupts are good to understand before moving on to RTOS'es. 
+
+4. Real Time operating systems. Between the Arduino ( one-task endless loop programming ) and the Raspberry Pi´s full blown linux systems, there is a need for combining communication protocol stacks with high responsiveness to sensors and IO devices like accelerometers and motor-controllers and put the microcontroller to sleep. This is the domain of RTOS'es. One common one is FreeRTOS, now bought by Amazon for IoT usage.  https://aws.amazon.com/freertos/ It might be good to browse thorugh this book to get an understanding on why RTOS's are needed, and some concepts like semaphores, execution priorities, etc. but the book is very academic - https://ptolemy.berkeley.edu/books/leeseshia/
+
+5. Power. Go one step deeper to really optimize battery power consumption to reach 10 years lifetime on a coin-cell. What state should IO-pins be set in during deep sleep? Can your application work on 16 bytes of battery backed up RTC registers and no RAM? What really happens when you wake up from deep-sleep/re-boot?
