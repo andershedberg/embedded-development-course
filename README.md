@@ -1,3 +1,10 @@
+# Introduction
+I started writing this during the Covid-19 pandemic to teach new skills to employees and interns that has not programmed embedded software before.
+
+Turns out there are a ton of very good information on the internet already, so why redo that? These pages has thus turned into a collection of good introductions. 
+Like Miro Samek who has an excellent video tutorial here https://www.state-machine.com/video-course 
+Below are my collection of other sources. 
+
 # embedded-development-course
 An embedded development course from Arduino blinking to hard core optimizing of battery life on ARM cores.
 
